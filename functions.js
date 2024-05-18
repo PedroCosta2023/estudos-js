@@ -28,3 +28,9 @@ function Aprovacao (media) {
 
 console.log(addUser("Pedro"))
 console.log(Aprovacao(10))
+
+
+const fullName = "Lucas do Espirito Santo Correa"
+const stringToArray = fullName.split(' ')
+
+console.log(`Primeiro nome: ${stringToArray[0]} Ultimo nome: ${stringToArray[stringToArray.length - 1]}`)
